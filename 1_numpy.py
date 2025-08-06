@@ -81,7 +81,7 @@ import numpy as np
 
 # ========== Indexing and Slicing ==============
 
-arr = np.array([10,20,30,40,50,60])
+# arr = np.array([10,20,30,40,50,60])
 
 # print(arr[1])
 # print(arr[1:4])
@@ -91,9 +91,17 @@ arr = np.array([10,20,30,40,50,60])
 
 # ========= Slicing in multi dimentional array ===========
 
-mat = np.array([[10,20,30],
-                [40,50,60,],
-                [70,80,90]])
+# mat = np.array([[10,20,30],
+#                 [40,50,60,],
+#                 [70,80,90]])
 # print(mat[1,2])  # first row and second column (60)
 # print(mat[0:2, 1:3])  # first two rows and last two columns
 # print(mat[0:2,1:]) 
+
+
+# ========= Random Numbers ============
+
+# print(np.random.rand(3,3))# 3x3 matrix of random numbers (0 to 1)
+# print(np.random.randn(3,3)) # 3x3 matrix of normally distributed random numbers
+# np.random.seed()
+# print(np.random.randint(1,100,(3,3)))  # 3x3 random integers from 1 to 100
