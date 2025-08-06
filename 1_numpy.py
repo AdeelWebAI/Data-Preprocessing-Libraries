@@ -78,3 +78,22 @@ import numpy as np
 # print(np.min(arr)) # Minimum Value
 # print(np.max(arr)) # Maximum Value
 
+
+# ========== Indexing and Slicing ==============
+
+arr = np.array([10,20,30,40,50,60])
+
+# print(arr[1])
+# print(arr[1:4])
+# print(arr[:3])
+# print(arr[-1])
+
+
+# ========= Slicing in multi dimentional array ===========
+
+mat = np.array([[10,20,30],
+                [40,50,60,],
+                [70,80,90]])
+# print(mat[1,2])  # first row and second column (60)
+# print(mat[0:2, 1:3])  # first two rows and last two columns
+# print(mat[0:2,1:]) 
