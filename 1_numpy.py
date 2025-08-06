@@ -33,3 +33,48 @@ import numpy as np
 # arr = np.arange(1,10,2)   #  [1 3 5 7 9]
 
 # print(arr)
+
+
+            # . NumPy Operations
+
+
+# ============ mathematical operations ===============
+
+
+# arr = np.array([1,2,3,4])  
+
+# print(arr + 2)
+# print(arr - 2)
+# print(arr * 2)
+# print(arr ** 2)
+# print(arr / 2)
+# print(arr // 2)
+
+
+# ======== matrix operations ============
+
+
+# A = np.array([[10,2,3,4], [5,6,7,8]])
+# B = np.array([[3,10,11,12],[13,14,15,16]])
+# print(A +B)
+# print(A - B)
+# print(A * B)
+# print(A ** B)
+# print(A / B)
+# print(A // B)
+# arr = np.array([[1,2,3,4], [5,6,7,8]])  
+# print(arr.T)
+
+
+# =========== Statistical Functions ================
+
+# arr = np.array([1, 2, 3, 4, 5,6,7,8,9,10,11]) 
+
+# print(np.mean(arr)) # Mean
+# print(np.median(arr)) # Median
+# print(np.std(arr)) # Standard Deviation
+# print(np.var(arr)) # Variance 
+# print(np.sum(arr)) # Sum
+# print(np.min(arr)) # Minimum Value
+# print(np.max(arr)) # Maximum Value
+
