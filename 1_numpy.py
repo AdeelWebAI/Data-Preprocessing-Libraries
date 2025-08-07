@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 
 # arr1 = np.array([1,2,3,4])     one dimentional array
 
