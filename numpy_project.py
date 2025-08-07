@@ -5,7 +5,7 @@
 
 # Load student scores and compute statistics.
 
-import numpy as np
+# import numpy as np
 # np.random.seed(42)
 # scores = np.random.randint(50,100,(10,5)) # 10 students and 5 subjects
 # print("scores: \n",scores) 
