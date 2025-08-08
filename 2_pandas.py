@@ -72,5 +72,27 @@ df = pd.read_excel("E_post.xlsx")
 # b. Adding and Removing Rows
 
 # df.loc[3] = ["Adeel",40,40,23,234,34,34,23,34] # Adding rows
-df.drop(3, axis=0, inplace=True) 
-print(df)
+# df.drop(3, axis=0, inplace=True) 
+# print(df)
+
+
+# 5. Handling Missing Data
+
+# a. Checking for Missing Data
+# print(df.isnull().sum()) # Count of missing values in each column
+
+# df.fillna(0,inplace=True) # Replace NaN with 0
+# df.fillna(df.mean(), inplace=True) #Replace NaN with column mean
+
+# df.dropna(inplace=True) # drop rows with NaN Values
+# df.dropna(axis=1,inplace=True) # drop columns with NaN Values
+
+# print(df.isnull().sum()) # Count of missing values in each column
+
+# 6. Grouping and Aggregation
+
+# a. Grouping Data
+
+print(df.groupby("Random"))    # Group by Random column 
+
+# print(df.groupby("Random")["Random2"].sum())
