@@ -95,4 +95,6 @@ df = pd.read_excel("E_post.xlsx")
 
 print(df.groupby("Random"))    # Group by Random column 
 
-# print(df.groupby("Random")["Random2"].sum())
+# print(df.groupby("Random")["Random2"].sum()) 
+
+
