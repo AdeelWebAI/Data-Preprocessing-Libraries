@@ -30,7 +30,7 @@ import pandas as pd
 # df = pd.read_csv("COVID.csv")
 # df.to_excel("covid.xlsx")
 # df = pd.read_excel("LYALLPUR.xlsx")
-# df.to_excel("E_post.xlsx")
+# df.to_excel("E_post2.xlsx")
 # print(df) 
 
 
@@ -38,7 +38,7 @@ import pandas as pd
 
 # a. Basic Inspection
 
-# df = pd.read_excel("E_post.xlsx")
+# df = pd.read_excel("E_post2.xlsx")
 # df.head()       # First 5 rows
 # df.tail()       # Last 5 rows
 # df.info()       # Summary of the DataFrame
@@ -99,5 +99,5 @@ import pandas as pd
 
 
 
-data=pd.read_excel("E_post.xlsx")
+data=pd.read_excel("E_post2.xlsx")
 print(data)
