@@ -141,3 +141,64 @@ df=pd.read_excel("E_post2.xlsx")
 # print(merged_df)
 
 
+# 8. Pivot Tables & Reshaping
+
+
+# pt=df.pivot_table(index="Name", columns="Random", values="Random2", aggfunc="sum")
+# print(pt) 
+
+# b. Melting DataFrames
+
+
+# mdf = df.melt(id_vars=["Name"], value_vars=["Random", "Random2"], var_name="Metric", value_name="Value")
+
+# df.melt(
+#     id_vars=["Name"],  # Ye woh column hai jo as it is rehna chahiye
+#     value_vars=["Random", "Random2"], # Ye columns ko hum "unpivot" karna chahte hain
+#     var_name="Metric", # Naye column ka naam jisme melted columns ka naam aayega
+#     value_name="Value" # Naye column ka naam jisme melted columns ke values aayenge
+# )
+# print(mdf)
+
+
+# 9. Time Series Analysis
+
+
+# a. Working with Dates
+
+# df["Inx"] = pd.to_datetime(df["Inx"])  # Convert to datetime
+# df.set_index("Inx", inplace=True)  # Set Date column as index
+# df.resample("ME").sum()  # Resample data by month
+# print(df)
+
+
+
+# 10. Visualization with Pandas
+
+
+# import matplotlib.pyplot as plt
+
+# df["Police Station"].plot(kind="bar")  # Bar chart
+# df.plot(x="Inx", y="Police Station", kind="line")  # Line chart
+# plt.show()
+
+
+# 11. Advanced Pandas Features
+
+# a. Applying Functions
+
+# def double(x):
+#     return x * 2
+# df["Double_Inx"] = df["Inx"].apply(double)
+# print(df)
+
+
+# b. Working with Large Datasets
+
+# chunk_size = 100
+
+# for i in pd.read_csv("imdb-top-1000.csv",chunk_size= chunk_size):
+#     print(i)
+    
+    
+    
