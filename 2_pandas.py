@@ -93,7 +93,7 @@ import pandas as pd
 
 # a. Grouping Data
 
-df=pd.read_excel("E_post2.xlsx")
+# df=pd.read_excel("E_post2.xlsx")
 
 # print(df.groupby("Random"))    # Group by Random column 
 # to see the group we run some function on the group 
